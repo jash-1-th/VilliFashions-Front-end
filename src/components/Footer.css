@@ -1,0 +1,188 @@
+.Footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Footer footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Footer footer .FooterContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Footer footer .FooterContainer .FooterSection {
+  margin-right: 30px;
+}
+
+.Footer footer .FooterContainer .FooterSection.AboutUs {
+  width: 40%;
+}
+
+.Footer footer .FooterContainer h2 {
+  position: relative;
+  color: gainsboro;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.Footer footer .FooterContainer h2:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+
+.Footer footer p {
+  color: white;
+}
+
+.Footer .SocialMedia {
+  margin-top: 20px;
+  display: flex;
+}
+
+.Footer .SocialMedia li {
+  list-style: none;
+}
+
+.Footer .SocialMedia li a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.Footer .SocialMedia li a:hover {
+  background: #f00;
+}
+
+.Footer .QuickLinks {
+  position: relative;
+  width: 25%;
+  flex: 1;
+}
+
+.Footer .QuickLinks ul li {
+  list-style: none;
+}
+
+.Footer .QuickLinks ul li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.Footer .QuickLinks ul li a:hover {
+  color: gainsboro;
+}
+
+.Footer .Contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+  flex: 1;
+}
+
+.Footer .Contact .FooterInfo {
+  position: relative;
+}
+
+.Footer .Contact .FooterInfo li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.Footer .Contact .FooterInfo li span:nth-child(1) {
+  color: gainsboro;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.Footer .Contact .FooterInfo li span {
+  color: white;
+}
+
+.Footer .Contact .FooterInfo li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Footer .Contact .FooterInfo li a:hover {
+  color: gainsboro;
+}
+
+.Footer .FooterCopyRight {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .Footer footer {
+    padding: 40px;
+  }
+
+  .Footer footer .FooterContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .Footer footer .FooterContainer {
+    flex-direction: column;
+  }
+
+  .Footer footer .FooterContainer .FooterSection {
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+
+  .Footer footer .FooterContainer .FooterSection.AboutUs {
+    width: 100%;
+  }
+
+  .Footer .QuickLinks {
+    position: relative;
+    width: 100%;
+  }
+
+  .Footer .Contact {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+
+  .Footer footer .FooterContainer .FooterSection.FooterSection.AboutUs,
+  .QuickLinks,
+  .Contact {
+    width: 100%;
+  }
+
+  .Footer .FooterCopyRight {
+    padding: 8px 40px;
+  }
+}
