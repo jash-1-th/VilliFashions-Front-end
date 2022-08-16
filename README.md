@@ -76,7 +76,7 @@ Please adhere to this project's `code of conduct`.
 ## Authors
 
 ```bash
-- [@Jaswanth Naidu Yedla](https://github.com/jvtRepo/Jaswanth-Naidu-Yedla.git)
+- [@Jaswanth Naidu Yedla](https://github.com/jash-1-th/VilliFashions-Front-end.git)
 ```
 
 #THANKYOU
